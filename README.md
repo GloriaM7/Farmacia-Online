@@ -25,7 +25,7 @@ sistema.
 
 ## Protótipo
 
-Link de acesso ao protótipo: **[INSERIR LINK DO FIGMA]**
+Link de acesso ao protótipo: https://www.figma.com/design/0S8HHAjngJ8uee2AirMKpM/Sem-t%C3%ADtulo?node-id=0-1&t=Q69ZXXk70AWtTpfJ-1
 
 ## Status do projeto
 
