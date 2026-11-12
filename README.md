@@ -19,14 +19,18 @@ O trabalho documenta o planejamento do sistema e sua futura implementação, org
 | **05 — Projeto UML** | Diagramas de Classes, de Sequência e de Máquina de Estados, descrevendo a estrutura e o comportamento planejados do sistema. |
 | **06 — Plano e Casos de Teste** | Estratégia, escopo, critérios de aprovação e casos de teste planejados, com acompanhamento por planilha no Google Sheets. |
 
-## Documentos atualmente no repositório
+## Documentos do projeto — ordem de apresentação
 
-- [Etapa 01 — Requisitos e UML](Etapa%2001%20%E2%80%93%20Requisitos%20e%20UML.pdf)
-- [Etapa 02 — Proposta de Interface](Etapa%2002%20%E2%80%93%20Proposta%20de%20Interface.pdf)
-- [Etapa 04 — Metodologia Scrum](Etapa04MetodologiaScrumABNT.pdf)
-- [Etapa 05 — Projeto UML](Etapa05ProjetoUMLABNT.pdf)
+Os seis documentos finais estão preparados para envio ao repositório nesta ordem:
 
-As Etapas 03 e 06 também fazem parte da documentação final, em processo de atualização dos arquivos do repositório.
+1. **01 — Levantamento de Requisitos e Casos de Uso** — `01 - Levantamento de Requisitos e Casos de Uso.pdf`
+2. **02 — Proposta de Interface** — `02 - Proposta de Interface.pdf`
+3. **03 — Gestão de Configuração de Software** — `03 - Gestao de Configuracao de Software.pdf`
+4. **04 — Metodologia Scrum** — `04 - Metodologia Scrum.pdf`
+5. **05 — Projeto UML** — `05 - Projeto UML.pdf`
+6. **06 — Plano e Casos de Teste** — `06 - Plano e Casos de Teste.pdf`
+
+**Situação:** os PDFs ainda precisam ser enviados ao GitHub. Os nomes padronizados garantem a ordem de 01 a 06 quando forem publicados.
 
 ## Links do projeto
 
