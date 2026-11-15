@@ -23,7 +23,7 @@ Quando um item exige receita, o cliente envia o documento após entrar na conta.
 
 ## Sprint 01
 
-A [Etapa 4](Etapa04MetodologiaScrumABNTGTI.pdf) registra a Sprint planejada para duas semanas. A meta foi simular a entrega do acesso à plataforma e da consulta ao catálogo. PB01 (5 SP), PB02 (5 SP) e PB03 (3 SP) passaram por A fazer, Em andamento e Concluído. Os outros sete itens ficaram em A fazer. O gráfico burndown ilustra oito dias de acompanhamento, com saldo de 13, 8, 3 e 0 pontos após as conclusões simuladas de PB01 (dia 2), PB02 (dia 5) e PB03 (dia 8). O quadro e o burndown registram a simulação acadêmica.
+A [Etapa 4](Etapa04MetodologiaScrumABNTGTI.pdf) registra a Sprint planejada para duas semanas. A meta foi simular a entrega do acesso à plataforma e da consulta ao catálogo. PB01 (5 SP), PB02 (5 SP) e PB03 (3 SP) passaram por A fazer, Em andamento e Concluído. Os outros sete itens ficaram em A fazer. O gráfico burndown original ilustra oito dias de acompanhamento. Ao baixar os pontos somente na conclusão de cada item, o saldo passa por 13, 8, 3 e 0 pontos após PB01 (dia 2), PB02 (dia 5) e PB03 (dia 8).
 
 ## Verificações complementares para homologação
 
