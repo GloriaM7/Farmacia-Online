@@ -1,28 +1,38 @@
-# Descrições dos documentos — Farmácia Online
+# Requisitos, backlog e testes da Farmácia Online
 
-Projeto acadêmico de Engenharia de Software da FATEC Campinas (GTI), 2026.
+A [página inicial do projeto](README.md) reúne os seis PDFs e os links para Figma, GitHub Projects e Google Sheets.
 
-## Etapa 01 — Requisitos e Casos de Uso
-Levantamento dos requisitos funcionais e não funcionais, identificação dos atores envolvidos e documentação do diagrama e das narrativas de casos de uso do sistema.
+## Rastreabilidade funcional
 
-## Etapa 02 — Proposta de Interface
-Definição da identidade visual, planejamento das telas e fluxos de navegação desktop e mobile, aplicação das heurísticas de Nielsen e apresentação do protótipo em Figma.
+Os códigos RF e UC seguem a [Etapa 1](Etapa01RequisitoseUmlABNTGTI.pdf). Na [Etapa 6](Etapa06TesteABNTGTI.pdf), CT01 a CT20 identificam os casos da planilha. A tabela indica os cenários planejados associados a cada item do backlog.
 
-## Etapa 03 — Gestão de Configuração de Software
-Registro da criação e organização do repositório, inclusão das especificações, controle de versões por commits e convite de colaboração ao professor.
+| Product Backlog | Requisito | Caso de uso | Casos de teste planejados |
+| --- | --- | --- | --- |
+| [PB01 · Cadastro e login](https://github.com/GloriaM7/Farmacia-Online/issues/2) | RF01 | UC01 | CT01–CT02 |
+| [PB02 · Catálogo e pesquisa](https://github.com/GloriaM7/Farmacia-Online/issues/3) | RF02 | UC02 | CT03–CT04 |
+| [PB03 · Detalhes dos medicamentos](https://github.com/GloriaM7/Farmacia-Online/issues/4) | RF02 | UC02 | CT05–CT06 |
+| [PB04 · Envio de receitas](https://github.com/GloriaM7/Farmacia-Online/issues/5) | RF03 | UC03 | CT07–CT08 |
+| [PB05 · Análise farmacêutica](https://github.com/GloriaM7/Farmacia-Online/issues/6) | RF07 | UC04 | CT09–CT10 |
+| [PB06 · Carrinho e frete](https://github.com/GloriaM7/Farmacia-Online/issues/7) | RF04 | UC05 | CT11–CT12 |
+| [PB07 · Pagamento](https://github.com/GloriaM7/Farmacia-Online/issues/8) | RF05 | UC06 | CT13–CT14 |
+| [PB08 · Acompanhamento dos pedidos](https://github.com/GloriaM7/Farmacia-Online/issues/9) | RF06 | UC08–UC09 | CT15–CT16 |
+| [PB09 · Produtos e estoque](https://github.com/GloriaM7/Farmacia-Online/issues/10) | RF08 | UC07 | CT17–CT18 |
+| [PB10 · Gerenciamento das entregas](https://github.com/GloriaM7/Farmacia-Online/issues/11) | RF09 | UC09 | CT19–CT20 |
 
-## Etapa 04 — Metodologia Scrum
-Organização do Product Backlog com dez funcionalidades, planejamento e simulação da Sprint 01, acompanhamento no GitHub Projects e Burndown Chart com dados simulados.
+Quando um item exige receita, o cliente envia o documento após entrar na conta. A finalização da compra fica bloqueada até a aprovação farmacêutica. Pix e boleto permanecem aguardando confirmação. Se o gateway confirmar a recusa, o pedido é cancelado. Depois do pagamento aprovado e da separação, o entregador registra a saída e a conclusão da entrega.
 
-## Etapa 05 — Projeto UML
-Apresentação dos diagramas de Classes, Sequência e Máquina de Estados, com explicações da estrutura do sistema, da realização de uma compra e do ciclo de vida de pedidos.
+## Sprint 01
 
-## Etapa 06 — Plano e Casos de Teste
-Definição do objetivo, escopo, tipos e critérios de avaliação dos testes, com casos planejados e acompanhamento no Google Sheets. Os testes ainda não representam a validação de um sistema implementado.
+A [Etapa 4](Etapa04MetodologiaScrumABNTGTI.pdf) registra a Sprint planejada para duas semanas. A meta foi simular a entrega do acesso à plataforma e da consulta ao catálogo. PB01 (5 SP), PB02 (5 SP) e PB03 (3 SP) passaram por A fazer, Em andamento e Concluído. Os outros sete itens ficaram em A fazer. O gráfico burndown ilustra oito dias de acompanhamento, com 13 pontos no início e zero no fim. O quadro e o burndown registram a simulação acadêmica.
 
-## Links de apoio
-- **Protótipo:** https://www.figma.com/design/0S8HHAjngJ8uee2AirMKpM/Sem-t%C3%ADtulo?node-id=0-1&t=Q69ZXXk70AWtTpfJ-1
-- **Quadro Scrum:** https://github.com/users/GloriaM7/projects/2/views/1
-- **Planilha de testes:** https://docs.google.com/spreadsheets/d/1y1mkctOBAMLIcyeYbPLvmztDZVPEi0lKT-njm4JSheI/edit?usp=sharing
+## Verificações complementares para homologação
 
-> As etapas são documentos de planejamento acadêmico. A planilha de testes possui cenários previstos para execução futura.
+| Requisito | Verificação planejada | Critério |
+| --- | --- | --- |
+| RNF01 · Proteção de dados | Em homologação, usar contas e receitas fictícias. Verificar se um cliente consegue abrir uma receita ou pedido de outra conta e se perfis sem permissão conseguem analisar receitas. | Negar o acesso fora das permissões previstas. CT16 cobre parte desse cenário para pedidos. |
+| RNF02 · Desempenho das buscas | Medir o tempo entre o envio da pesquisa e a exibição dos resultados por nome, categoria e princípio ativo. Registrar a carga e o tamanho do catálogo. | A busca deve responder em até dois segundos nas condições de teste documentadas. |
+| RNF03 · Disponibilidade | Monitorar o serviço continuamente durante a janela mensal definida para homologação e registrar as indisponibilidades. | Disponibilidade de pelo menos 99,9% na janela medida. |
+| RNF04 · Segurança do pagamento | Verificar em sandbox se a integração com o gateway usa TLS e rejeita uma tentativa com certificado inválido. | Toda comunicação com o gateway usa TLS e a validação do certificado é obrigatória. |
+| Usabilidade · Etapa 2 | Percorrer busca, carrinho, envio de receita e acompanhamento em desktop e mobile. Conferir mensagens de erro, retorno às telas e indicação do status. | É possível completar os fluxos, entender as mensagens e recuperar-se de erros de entrada nas duas plataformas. |
+
+Os casos da planilha e as verificações acima aguardam a implementação e o ambiente de homologação.
