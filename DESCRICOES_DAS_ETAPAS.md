@@ -4,16 +4,16 @@ A [página inicial do projeto](README.md) reúne os seis PDFs e os links para Fi
 
 ## Rastreabilidade funcional
 
-Os códigos RF e UC seguem a [Etapa 1](Etapa01RequisitoseUmlABNTGTI.pdf). Na [Etapa 6](Etapa06TesteABNTGTI.pdf), CT01 a CT20 identificam os casos da planilha. A tabela indica os cenários planejados associados a cada item do backlog.
+Os códigos RF e UC seguem a [Etapa 1](Etapa01RequisitoseUmlABNTGTI.pdf). Na [Etapa 6](Etapa06TesteABNTGTI.pdf), CT01 a CT23 identificam os casos da planilha. A tabela indica os cenários planejados associados a cada item do backlog.
 
 | Product Backlog | Requisito | Caso de uso | Casos de teste planejados |
 | --- | --- | --- | --- |
-| [PB01 · Cadastro e login](https://github.com/GloriaM7/Farmacia-Online/issues/2) | RF01 | UC01 | CT01–CT02 |
-| [PB02 · Catálogo e pesquisa](https://github.com/GloriaM7/Farmacia-Online/issues/3) | RF02 | UC02 | CT03–CT04 |
+| [PB01 · Cadastro e login](https://github.com/GloriaM7/Farmacia-Online/issues/2) | RF01 | UC01 | CT01–CT02, CT21 |
+| [PB02 · Catálogo e pesquisa](https://github.com/GloriaM7/Farmacia-Online/issues/3) | RF02 | UC02 | CT03–CT04, CT22 |
 | [PB03 · Detalhes dos medicamentos](https://github.com/GloriaM7/Farmacia-Online/issues/4) | RF02 | UC02 | CT05–CT06 |
 | [PB04 · Envio de receitas](https://github.com/GloriaM7/Farmacia-Online/issues/5) | RF03 | UC03 | CT07–CT08 |
 | [PB05 · Análise farmacêutica](https://github.com/GloriaM7/Farmacia-Online/issues/6) | RF07 | UC04 | CT09–CT10 |
-| [PB06 · Carrinho e frete](https://github.com/GloriaM7/Farmacia-Online/issues/7) | RF04 | UC05 | CT11–CT12 |
+| [PB06 · Carrinho e frete](https://github.com/GloriaM7/Farmacia-Online/issues/7) | RF04 | UC05 | CT11–CT12, CT23 |
 | [PB07 · Pagamento](https://github.com/GloriaM7/Farmacia-Online/issues/8) | RF05 | UC06 | CT13–CT14 |
 | [PB08 · Acompanhamento dos pedidos](https://github.com/GloriaM7/Farmacia-Online/issues/9) | RF06 | UC08–UC09 | CT15–CT16 |
 | [PB09 · Produtos e estoque](https://github.com/GloriaM7/Farmacia-Online/issues/10) | RF08 | UC07 | CT17–CT18 |
@@ -23,7 +23,7 @@ Quando um item exige receita, o cliente envia o documento após entrar na conta.
 
 ## Sprint 01
 
-A [Etapa 4](Etapa04MetodologiaScrumABNTGTI.pdf) registra a Sprint planejada para duas semanas. A meta foi simular a entrega do acesso à plataforma e da consulta ao catálogo. PB01 (5 SP), PB02 (5 SP) e PB03 (3 SP) passaram por A fazer, Em andamento e Concluído. Os outros sete itens ficaram em A fazer. O gráfico burndown ilustra oito dias de acompanhamento, com 13 pontos no início e zero no fim. O quadro e o burndown registram a simulação acadêmica.
+A [Etapa 4](Etapa04MetodologiaScrumABNTGTI.pdf) registra a Sprint planejada para duas semanas. A meta foi simular a entrega do acesso à plataforma e da consulta ao catálogo. PB01 (5 SP), PB02 (5 SP) e PB03 (3 SP) passaram por A fazer, Em andamento e Concluído. Os outros sete itens ficaram em A fazer. O gráfico burndown ilustra oito dias de acompanhamento, com saldo de 13, 8, 3 e 0 pontos após as conclusões simuladas de PB01 (dia 2), PB02 (dia 5) e PB03 (dia 8). O quadro e o burndown registram a simulação acadêmica.
 
 ## Verificações complementares para homologação
 

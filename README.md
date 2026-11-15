@@ -11,9 +11,9 @@ Proposta de um e-commerce de farmácia para consultar medicamentos, enviar recei
 | 01 | [Requisitos e Casos de Uso](Etapa01RequisitoseUmlABNTGTI.pdf) | Atores, requisitos funcionais e não funcionais, diagrama e narrativas dos casos de uso. |
 | 02 | [Proposta de Interface](Etapa02PropostadeInterfaceABNTGTI.pdf) | Telas, fluxos para desktop e mobile e aplicação das dez heurísticas de Nielsen. |
 | 03 | [Gestão de Configuração de Software](Etapa03GestaodeConfiguracaoABNTGTIComImagens_COM_LINK.pdf) | Organização dos documentos e especificações no GitHub, versionamento e registro do convite ao professor. |
-| 04 | [Scrum](Etapa04MetodologiaScrumABNTGTI.pdf) | Product Backlog, planejamento e simulação da Sprint 01 e gráfico burndown. |
-| 05 | [Projeto UML](Etapa05ProjetoUMLABNTGTI.pdf) | Diagramas de classes, de sequência da compra e de máquina de estados do pedido. |
-| 06 | [Plano e Casos de Teste](Etapa06TesteABNTGTI.pdf) | Escopo, procedimentos, critérios e 20 casos planejados, com status inicial “Não executado”. |
+| 04 | [Scrum](Etapa04MetodologiaScrumABNTGTI.pdf) | Product Backlog, planejamento e simulação da Sprint 01 e gráfico burndown por conclusão de itens. |
+| 05 | [Projeto UML](Etapa05ProjetoUMLABNTGTI.pdf) | Diagramas de classes, de sequência da compra com análise de receita e de máquina de estados do pedido. |
+| 06 | [Plano e Casos de Teste](Etapa06TesteABNTGTI.pdf) | Escopo, procedimentos, critérios e 23 casos planejados, com status inicial “Não executado”. |
 
 ## Protótipo, quadro e planilha
 
